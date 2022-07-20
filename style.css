@@ -1,0 +1,83 @@
+body{
+    background-color: #F6E7CB;
+}
+.cart{
+    background-color: #DD9787;
+}
+.item-list-color{
+    background-color: #A6C48A;
+}
+
+/* .ice-cream-item img {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer;
+  }
+ .ice-cream-item div:hover {
+    transform: translateY(-3px);
+    outline: 1px solid white;
+  }
+.ice-cream-item img {
+    height: 14em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: solid;
+    border-color: #678D58;
+    border-radius: 5px;
+  }
+  .ice-cream-name {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+  } */
+  .ice-cream-item {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer;
+  }
+  
+  .ice-cream-item:hover {
+    transform: translateY(-3px);
+    outline: 1.5px solid #678D58;
+    border-radius: 5px;
+  }
+  
+  .ice-cream-item img {
+    height: 14em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid;
+    border-color: #678D58;
+    border-radius: 5px;
+  }
+  
+  .ice-cream-name {
+    background-color: #74D3AE;
+    border: 1.5px solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+  }
+  
+  .price {
+    background-color: #74D3AE;
+    border: 1.5px solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+  .cart-border{
+    border-bottom: 4px solid;
+    border-color: #2e2e2e;
+  }

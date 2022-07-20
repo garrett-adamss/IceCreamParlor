@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ice Cream Parlor</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main class="conatiner-fluid">
+        <div class="row">
+            <!-- SECTION CART -->
+            <section class="cart col-4 m-3">
+                <h1 class="text-center m-2">Cart</h1>
+                <section class="row cart-border p-1 m-2 align-items-center">
+                    <div class="col-5 text-end"><b>Name</b></div>
+                    <div class="col-1"><b>|</b></div>
+                    <div class="col-3"><b>Price</b></div> 
+                    <button class="col-2 btn btn-success btn-sm" onclick="pay()">PAYi</button> 
+                </section>
+                <section class="row text-justify align-items-center" id="cart">
+                    <!-- <div class="col-5 text-end"><b>$Name$</b></div>
+                    <p class="col-1"><b>:</b></p>
+                    <div class="col-3"><b>$Price$</b></div> 
+                    <button class="col-2 btn btn-danger">DELETE</button>               -->
+                </section>
+            </section>
+            
+            <!-- SECTION ITEM List -->
+            <div class="col-md-7 m-3 item-list-color">
+                <h1 class="text-center">Ice Cream</h1>
+                <section class="row d-flex justify-content-around" id="item-list">
+                    <!-- NOTE Ice Cream Input -->
+                    <!-- <div class="col-5 ice-cream-item p-0 m-2">
+                        <img class="img-fluid" src="https://thiscatdoesnotexist.com/"alt="">
+                        <p class="text-dark p-2 ice-cream-name mb-0">Ice Cream Name</p>
+                        <p class="text-dark p-2 price">$91.00</p>
+                      </div> -->
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
